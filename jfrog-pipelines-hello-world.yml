@@ -79,4 +79,4 @@ pipelines:
         execution:
           onExecute:
             # Retrieves the commitSha from input resource
-            - echo "CommitSha is $res_myPropertyBag_commitSha"
+            - echo "TEST2 CommitSha is $res_myPropertyBag_commitSha"
