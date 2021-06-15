@@ -39,7 +39,7 @@ pipelines:
             # This variable is written to pipeline state in p1_s3.
             # So this will be empty during first run and will be set to prior run number in subsequent runs
             # Pipeline state documentation: https://www.jfrog.com/confluence/display/JFROG/Creating+Stateful+Pipelines#CreatingStatefulPipelines-PipelineState
-            - echo "Previous run ID is $prev_runid"
+            - echo "Previous run ID is $prev_runid TEST123"
 
       - name: p1_s2
         type: Bash
